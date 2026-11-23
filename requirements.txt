@@ -1,0 +1,19 @@
+# Core
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+httpx>=0.27
+openai>=1.40            # OpenAI-compatible client used for Gemini / OpenAI / Groq / OpenRouter / Ollama
+json-repair>=0.30       # repairs slightly malformed LLM JSON
+yt-dlp[default]>=2025.11.12   # [default] pulls in yt-dlp-ejs (needed for YouTube; also install Deno)
+
+# YouTube upload (OAuth) + Data API
+google-api-python-client>=2.130
+google-auth-oauthlib>=1.2
+google-auth-httplib2>=0.2
+
+# User interface
+streamlit>=1.40
+
+# Optional: enables the "face_track" layout (safe to remove if you never use it)
+opencv-python-headless>=4.9
